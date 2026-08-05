@@ -18,105 +18,10 @@
     }
 
     img {
-      max-width: 250px;
-      margin-bottom: 30px;
-    }
-
-    h1,
-    h2,
-    p,
-    a,
-    .tagline,
-    .notice,
-    .footer {
-      font-size: 16px;
-    }
-
-    h1 {
-      margin-bottom: 5px;
-      font-weight: 700;
-    }
-
-    h2 {
-      margin-top: 35px;
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-
-    p {
-      margin: 10px 0;
-    }
-
-    a {
-      color: #004b8d;
-      text-decoration: underline;
-    }
-
-    a:hover {
-      color: #002f5f;
-    }
-
-    .tagline {
-      color: #555;
-      margin-top: 0;
-    }
-
-    .section {
-      margin-top: 30px;
-    }
-
-    .contact {
-      margin-top: 25px;
-    }
-
-    .contact-button {
-      display: inline-block;
-      padding: 12px 24px;
-      background-color: #004b8d;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: 700;
-     e margin-top: 10px;
-    }
-
-    .contact-button:hover {
-      background-color: #002f5f;
-      color: #ffffff;
-    }
-
-    .notice {
-      color: #333;
-    }
-
-    .footer {
-      margin-top: 45px;
-      padding-top: 20px;
-      border-top: 1px solid #ddd;
-      color: #555;
-    }
-  </style>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <title>Hilgenberg Law LLC</title>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px auto;
-      max-width: 850px;
-      padding: 0 20px;
-      color: #111;
-      line-height: 1.6;
-      font-size: 16px;
-    }
-
-    img {
-      max-width: 250px;
+      display: block;
+      max-width: 320px;
+      width: 100%;
+      height: auto;
       margin-bottom: 30px;
     }
 
@@ -126,6 +31,7 @@
     a,
     li,
     .tagline,
+    .subtagline,
     .notice,
     .footer {
       font-size: 16px;
@@ -178,15 +84,11 @@
       margin-top: 30px;
     }
 
-    .contact {
-      margin-top: 25px;
-    }
-
     .contact-button {
       display: inline-block;
       padding: 12px 24px;
-      background-color: #004b8d;
-      color: #ffffff;
+      background-color: #3f6b3f;
+      color: #ffffff !important;
       text-decoration: none;
       border-radius: 6px;
       font-weight: 700;
@@ -194,8 +96,8 @@
     }
 
     .contact-button:hover {
-      background-color: #002f5f;
-      color: #ffffff;
+      background-color: #2f5233;
+      color: #ffffff !important;
     }
 
     .notice {
@@ -207,6 +109,17 @@
       padding-top: 20px;
       border-top: 1px solid #ddd;
       color: #555;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        margin: 30px auto;
+        padding: 0 18px;
+      }
+
+      img {
+        max-width: 260px;
+      }
     }
   </style>
 </head>
@@ -222,7 +135,7 @@
   </p>
 
   <p class="subtagline">
-    Real Estate • Land Use • Development • Conservation • Property Rights
+    Land Use &bull; Real Estate &bull; Development &bull; Conservation &bull; Property Rights
   </p>
 
   <div class="section">
@@ -233,7 +146,7 @@
     </p>
 
     <p>
-      Scott Hilgenberg works with landowners, developers, investors, businesses, and families on matters involving property, growth, planning, and long-term stewardship. Drawing on experience in private practice, government service, commercial real estate, and in-house counsel roles, Scott helps clients evaluate opportunities, manage risk, and achieve practical business and ownership objectives.
+      Scott Hilgenberg works with landowners, developers, businesses, and families on matters involving property, growth, planning, and long-term stewardship. Drawing on experience in private practice, government service, commercial real estate, conservation, and in-house counsel roles, Scott helps clients evaluate opportunities, manage risk, and achieve practical business and ownership objectives.
     </p>
   </div>
 
@@ -245,9 +158,9 @@
       <li>Land Use, Zoning, and Development</li>
       <li>Conservation and Land Stewardship</li>
       <li>Easements, Access, Title, and Property Rights</li>
+      <li>Regulatory and Administrative Matters</li>
       <li>Business Formation, Contracts, and Transactions</li>
       <li>Estate, Succession, and Legacy Planning</li>
-      <li>Regulatory and Administrative Matters</li>
     </ul>
   </div>
 
@@ -255,7 +168,7 @@
     <h2>Specialty Counsel for Law Firms</h2>
 
     <p>
-      Scott also contracts with law firms that require specialized support on land use, development, real estate, conservation, regulatory, and property rights matters. He assists attorneys and their clients with complex projects, permitting efforts, property issues, and matters that benefit from focused subject-matter experience.
+      Scott contracts with law firms requiring specialized support on land use, development, real estate, conservation, regulatory, and property rights matters. He assists attorneys and their clients with complex projects, permitting efforts, property issues, and matters benefiting from focused subject-matter experience.
     </p>
   </div>
 
@@ -267,17 +180,26 @@
     </p>
 
     <p>
-      His professional background includes private practice, government service, conservation-related work, commercial real estate, and service as in-house counsel for a Wisconsin real estate brokerage and development company. Scott has advised property owners, developers, businesses, financial institutions, public interest organizations, and other clients on property, development, land use, and business matters.
+      His background includes private practice, government service, conservation-related work, commercial real estate brokerage and development. He has advised landowners, developers, businesses, financial institutions, and public interest organizations on property, development, land use, and business matters. Scott has extensive experience in land use litigation and policy, including public service as staff attorney for Oregon's Land Use Board of Appeals and chair of the Oregon State Bar's Real Estate and Land Use Section.
     </p>
 
     <p>
-      He is licensed to practice law in Wisconsin, Oregon, and Washington. Outside of his practice, Scott enjoys hiking, biking, and spending time with family lakeside.
+      Scott is licensed to practice law in Wisconsin, Oregon, and Washington. Outside of his practice, he enjoys hiking, biking, and spending time with family lakeside.
     </p>
   </div>
 
-  <div class="contact">
+  <div class="section">
+    <h2>Contact</h2>
+
     <p>
-      <a href="mailto:info@hilgenberglaw.com" class="contact-button">
+      Scott Hilgenberg<br>
+      Hilgenberg Law LLC<br>
+      840 Willard Drive, Suite 205<br>
+      Green Bay, WI 54304
+    </p>
+
+    <p>
+      <a href="mailto:scott@hilglaw.com" class="contact-button">
         Contact Hilgenberg Law LLC
       </a>
     </p>
@@ -287,41 +209,33 @@
     <h2>Selected Speaking Engagements</h2>
 
     <p>
-      • Jurisdictional Issues in Land Use Appeals, Oregon State Bar Real Estate and Land Use Fundamentals Continuing Legal Education Program (2018)<br>
+      &bull; Jurisdictional Issues in Land Use Appeals, Oregon State Bar Real Estate and Land Use Fundamentals Continuing Legal Education Program (2018)<br>
       <a href="https://s3-us-west-2.amazonaws.com/oregonstatebar/Seminars/2018/RE18-4.pdf" target="_blank" rel="noopener noreferrer">
         View Program Materials
       </a>
     </p>
 
     <p>
-      • Strategies to Promote Affordable Housing Through Density Increases, Oregon State Bar Real Estate and Land Use Continuing Legal Education Program (2019)<br>
+      &bull; Strategies to Promote Affordable Housing Through Density Increases, Oregon State Bar Real Estate and Land Use Continuing Legal Education Program (2019)<br>
       <a href="https://s3-us-west-2.amazonaws.com/oregonstatebar/Seminars/2019/RE19-7.pdf" target="_blank" rel="noopener noreferrer">
         View Program Materials
       </a>
     </p>
 
     <p>
-      • Land Use and Legislative Review, Oregon State Bar Real Estate and Land Use Section Luncheon Series (2019)
+      &bull; Land Use and Legislative Review, Oregon State Bar Real Estate and Land Use Section Luncheon Series (2019)
     </p>
 
     <p>
-      • Is Land Use in Your Conservation Tool Kit?, Public Interest Environmental Law Conference, Eugene, Oregon (2018)
+      &bull; Is Land Use in Your Conservation Tool Kit?, Public Interest Environmental Law Conference, Eugene, Oregon (2018)
     </p>
   </div>
 
   <div class="section">
-    <h2>Notices</h2>
+    <h2>Notice</h2>
 
     <p class="notice">
-      <strong>Jurisdiction Notice:</strong> Scott Hilgenberg is licensed to practice law in Wisconsin, Oregon, and Washington. Legal services are provided only in jurisdictions where he is licensed or otherwise authorized to practice.
-    </p>
-
-    <p class="notice">
-      <strong>Attorney-Client Relationship Notice:</strong> Use of this website, submission of information through any contact form, or communication with Hilgenberg Law LLC does not create an attorney-client relationship. An attorney-client relationship may be established only through a written engagement agreement accepted by both attorney and client.
-    </p>
-
-    <p class="notice">
-      <strong>Professional Advice Notice:</strong> Individuals seeking legal, real estate, tax, financial, investment, or other professional advice should consult a qualified professional licensed in the appropriate jurisdiction.
+      <strong>Attorney-Client Relationship Notice:</strong> Use of this website, submission of information through any contact form, or communication with Hilgenberg Law LLC does not create an attorney-client relationship. An attorney-client relationship may be established only through a written engagement agreement executed by attorney and client.
     </p>
   </div>
 
