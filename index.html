@@ -25,7 +25,7 @@
       color: #111;
       line-height: 1.6;
       font-size: 16px;
-      background-color: #f3f6f1;
+      background-color: #fff8e6;
     }
 
     .container {
@@ -44,11 +44,12 @@
     }
 
     .hero-image {
-      width: 100%;
+      width: calc(100% + 80px);
+      max-width: none;
       height: auto;
       display: block;
-      border-radius: 8px;
-      margin: 0 0 30px 0;
+      margin: 0 -40px 30px -40px;
+      border-radius: 0;
     }
 
     h1,
@@ -144,6 +145,11 @@
 
       .logo {
         max-width: 200px;
+      }
+
+      .hero-image {
+        width: calc(100% + 50px);
+        margin: 0 -25px 25px -25px;
       }
     }
   </style>
@@ -282,12 +288,9 @@
     <h2>Notice</h2>
 
     <p class="notice">
-      <strong>Attorney-Client Relationship Notice:</strong>
-      Use of this website, submission of information through any contact form,
-      or communication with Hilgenberg Law LLC does not create an
-      attorney-client relationship. An attorney-client relationship may be
-      established only through a written engagement agreement executed by
-      attorney and client.
+      Use of this website or communication with Hilgenberg Law LLC does not
+      create an attorney-client relationship. An attorney-client relationship
+      may be established only through a written engagement agreement.
     </p>
   </div>
 
