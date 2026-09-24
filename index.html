@@ -106,22 +106,30 @@
       margin-top: 30px;
     }
 
-    .contact-button {
-      display: inline-block;
-      padding: 12px 24px;
-      background-color: #3f6b3f;
-      color: #ffffff !important;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: 700;
-      margin-top: 10px;
-    }
-
-    .contact-button:hover {
-      background-color: #2f5233;
-      color: #ffffff !important;
-    }
-
+CSS
+.contact-button,
+.contact-button:visited {
+display: inline-block;
+padding: 12px 22px;
+background-color: #002c1e;
+border: 1px solid #002c1e;
+border-radius: 4px;
+color: #ffffff;
+font-weight: 600;
+text-decoration: none;
+}
+ 
+.contact-button:hover,
+.contact-button:focus {
+background-color: #001f15;
+border-color: #001f15;
+color: #ffffff;
+}
+ 
+.contact-button:focus-visible {
+outline: 3px solid #a77820;
+outline-offset: 3px;
+}
     .notice {
       color: #333;
     }
